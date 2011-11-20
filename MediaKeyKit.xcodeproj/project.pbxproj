@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032DA3AA1478893200FE8359 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032DA3A91478893200FE8359 /* Cocoa.framework */; };
+		032DA3B41478893200FE8359 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032DA3B21478893200FE8359 /* InfoPlist.strings */; };
+		032DA3B81478893200FE8359 /* MediaKeyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DA3B71478893200FE8359 /* MediaKeyKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032DA3A61478893200FE8359 /* MediaKeyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediaKeyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		032DA3A91478893200FE8359 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		032DA3AC1478893200FE8359 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		032DA3AD1478893200FE8359 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		032DA3AE1478893200FE8359 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		032DA3B11478893200FE8359 /* MediaKeyKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaKeyKit-Info.plist"; sourceTree = "<group>"; };
+		032DA3B31478893200FE8359 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		032DA3B51478893200FE8359 /* MediaKeyKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediaKeyKit-Prefix.pch"; sourceTree = "<group>"; };
+		032DA3B61478893200FE8359 /* MediaKeyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaKeyKit.h; sourceTree = "<group>"; };
+		032DA3B71478893200FE8359 /* MediaKeyKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaKeyKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032DA3A21478893200FE8359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DA3AA1478893200FE8359 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032DA39A1478893200FE8359 = {
+			isa = PBXGroup;
+			children = (
+				032DA3AF1478893200FE8359 /* MediaKeyKit */,
+				032DA3A81478893200FE8359 /* Frameworks */,
+				032DA3A71478893200FE8359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032DA3A71478893200FE8359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032DA3A61478893200FE8359 /* MediaKeyKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032DA3A81478893200FE8359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032DA3A91478893200FE8359 /* Cocoa.framework */,
+				032DA3AB1478893200FE8359 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		032DA3AB1478893200FE8359 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032DA3AC1478893200FE8359 /* AppKit.framework */,
+				032DA3AD1478893200FE8359 /* CoreData.framework */,
+				032DA3AE1478893200FE8359 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		032DA3AF1478893200FE8359 /* MediaKeyKit */ = {
+			isa = PBXGroup;
+			children = (
+				032DA3B61478893200FE8359 /* MediaKeyKit.h */,
+				032DA3B71478893200FE8359 /* MediaKeyKit.m */,
+				032DA3B01478893200FE8359 /* Supporting Files */,
+			);
+			path = MediaKeyKit;
+			sourceTree = "<group>";
+		};
+		032DA3B01478893200FE8359 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032DA3B11478893200FE8359 /* MediaKeyKit-Info.plist */,
+				032DA3B21478893200FE8359 /* InfoPlist.strings */,
+				032DA3B51478893200FE8359 /* MediaKeyKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		032DA3A31478893200FE8359 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		032DA3A51478893200FE8359 /* MediaKeyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032DA3BB1478893200FE8359 /* Build configuration list for PBXNativeTarget "MediaKeyKit" */;
+			buildPhases = (
+				032DA3A11478893200FE8359 /* Sources */,
+				032DA3A21478893200FE8359 /* Frameworks */,
+				032DA3A31478893200FE8359 /* Headers */,
+				032DA3A41478893200FE8359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaKeyKit;
+			productName = MediaKeyKit;
+			productReference = 032DA3A61478893200FE8359 /* MediaKeyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032DA39C1478893200FE8359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 032DA39F1478893200FE8359 /* Build configuration list for PBXProject "MediaKeyKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 032DA39A1478893200FE8359;
+			productRefGroup = 032DA3A71478893200FE8359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032DA3A51478893200FE8359 /* MediaKeyKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032DA3A41478893200FE8359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DA3B41478893200FE8359 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032DA3A11478893200FE8359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DA3B81478893200FE8359 /* MediaKeyKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		032DA3B21478893200FE8359 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032DA3B31478893200FE8359 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032DA3B91478893200FE8359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		032DA3BA1478893200FE8359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		032DA3BC1478893200FE8359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaKeyKit/MediaKeyKit-Prefix.pch";
+				INFOPLIST_FILE = "MediaKeyKit/MediaKeyKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		032DA3BD1478893200FE8359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaKeyKit/MediaKeyKit-Prefix.pch";
+				INFOPLIST_FILE = "MediaKeyKit/MediaKeyKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032DA39F1478893200FE8359 /* Build configuration list for PBXProject "MediaKeyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DA3B91478893200FE8359 /* Debug */,
+				032DA3BA1478893200FE8359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032DA3BB1478893200FE8359 /* Build configuration list for PBXNativeTarget "MediaKeyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DA3BC1478893200FE8359 /* Debug */,
+				032DA3BD1478893200FE8359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032DA39C1478893200FE8359 /* Project object */;
+}
