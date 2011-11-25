@@ -15,4 +15,4 @@ The problem with the first is that it requires network entitlements. While this 
 
 The problem with the second is that XPC is that is avialable in 10.7+. So I would still have to come up with some backwards compatiblity for 10.6 applications. In the long run, I do believe this is the best solution, and with code samples could be made pretty painless for end developers. Unfortunately, I don't have any previous with XPC, so the going might be tough.
 
-To the guys who are watching this repo, I just wanted to thank you for the silent support!
+Seems that in a sandbox, CGEventTap is useless. :|
